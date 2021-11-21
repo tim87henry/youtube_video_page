@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -85,7 +85,7 @@ body {
 .navbar_right {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .userNameButton {
@@ -97,4 +97,98 @@ body {
     height: 30px;
     width: 30px;
     margin-right: 40px;
+}
+
+.video_section {
+    width: 70%;
+    margin:  0 auto;
+    padding: 5px;
+    display: flex;
+}
+
+.col-1-2-3 {
+    float: left;
+    width: 70%;
+    padding-top: 30px;
+}
+
+.col-3-3 {
+    float: right;
+    width: 30%;
+}
+
+.videoPlayer {
+    width: 95%;
+    height: 650px;
+    border: 0;
+}
+
+.videoInfo {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: flex-end;
+}
+
+.videoName {
+    font-size: 18px;
+}
+
+.viewsInfo {
+    font-size: 14px;
+    color: lightgray;
+}
+
+.infoPanelButton {
+    width: 100px;
+    border: 0;
+    background: black;
+    color: white;
+    font-size: 16px;
+}
+
+.thumbButton {
+    border-bottom: 2px solid white;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.userInfo {
+    margin-top: 20px;
+}
+
+.profilePic {
+    border-radius: 50%;
+}
+
+.userName {
+    font-weight: bolder;
+}
+
+.subscribersCount {
+    font-size: 14px;
+    color: lightgray;
+}
+
+.videoDescription{
+    margin-top: 30px;
+}
+
+.openDescr {
+    margin-top: 20px;
+    font-size: 14px;
+    color: lightgray;
+}
+
+.subscribeButton {
+    background: red;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0;
+    padding: 5px;
 }
