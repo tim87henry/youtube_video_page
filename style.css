@@ -21,7 +21,7 @@ time, mark, audio, video {
 
 body {
     background: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .navbar {
@@ -115,6 +115,7 @@ body {
 .col-3-3 {
     float: right;
     width: 30%;
+    padding-top: 30px;
 }
 
 .videoPlayer {
@@ -159,6 +160,9 @@ body {
 
 .userInfo {
     margin-top: 20px;
+    padding: 20px 0 20px 0;
+    border-top: 1px solid rgb(82, 82, 82);
+    border-bottom: 1px solid rgb(82, 82, 82);
 }
 
 .profilePic {
@@ -176,19 +180,149 @@ body {
 
 .videoDescription{
     margin-top: 30px;
+    font-size: 15px;
 }
 
 .openDescr {
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: bold;
     color: lightgray;
 }
 
 .subscribeButton {
     background: red;
     color: white;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
     border: 0;
-    padding: 5px;
+    padding: 10px;
+}
+
+.commentsHeaderFirstLine {
+    display: flex;
+    margin: 30px 0 20px 0;
+}
+
+.sort_button {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.commentsHeaderSecondLine {
+    display: flex;
+    gap: 10px
+}
+
+.userDP {
+    border-radius: 50%;
+}
+
+.addCommentMsg {
+    font-size: 14px;
+    color: darkgray;
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid rgb(82, 82, 82);
+}
+
+.comment {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.commentPic {
+    border-radius: 50%;
+    height: 45px;
+}
+
+.commentContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+ 
+.commentUserInfo {
+    display: flex;
+    gap: 10px;
+}
+
+.commentUserName {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.commentTime {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+}
+
+.commentText {
+    font-size: 15px;
+}
+
+.commentThumbs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.commentThumb {
+    font-size: 16px !important;
+}
+
+.commentReplyButton {
+    font-size: 13px;
+    color: lightgray;
+    background: black;
+    border: 0
+}
+
+.commentRating {
+    font-size: 13px;
+    color: lightgray;
+}
+
+.commentViewReplies {
+    color: rgb(46, 110, 255);
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.relatedVideo {
+    display: flex;
+}
+
+.relatedThumbnail {
+    height: 90px;
+    width: 175px;
+}
+
+.relatedInfo {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.relatedTitle {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.relatedChannel {
+    font-size: 13px;
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.relatedDetails {
+    font-size: 13px;
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
